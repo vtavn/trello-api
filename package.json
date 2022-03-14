@@ -1,0 +1,30 @@
+{
+    "name": "trello-api",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/server.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "eslint": "eslint src"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vtavn/trello-api.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/vtavn/trello-api/issues"
+    },
+    "homepage": "https://github.com/vtavn/trello-api#readme",
+    "dependencies": {
+        "express": "^4.17.3"
+    },
+    "devDependencies": {
+        "@babel/eslint-parser": "^7.17.0",
+        "babel-eslint": "^10.1.0",
+        "eslint": "^8.11.0"
+    }
+}

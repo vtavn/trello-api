@@ -25,7 +25,9 @@
     "homepage": "https://github.com/vtavn/trello-api#readme",
     "dependencies": {
         "@babel/runtime": "^7.17.7",
-        "express": "^4.17.3"
+        "dotenv": "^16.0.0",
+        "express": "^4.17.3",
+        "mongodb": "^4.4.1"
     },
     "devDependencies": {
         "@babel/cli": "^7.17.6",
@@ -34,7 +36,6 @@
         "@babel/node": "^7.16.8",
         "@babel/plugin-transform-runtime": "^7.17.0",
         "@babel/preset-env": "^7.16.11",
-        "babel-eslint": "^10.1.0",
         "babel-plugin-module-resolver": "^4.1.0",
         "eslint": "^8.11.0",
         "nodemon": "^2.0.15"

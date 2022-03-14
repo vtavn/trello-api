@@ -1,7 +1,8 @@
 import express from 'express'
-import { mapOder } from './utilities/sorts.js'
+import { mapOder } from '*/utilities/sorts.js'
 
 const app = express()
+
 const hostname = 'localhost'
 const port = 3300
 

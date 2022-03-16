@@ -1,8 +1,34 @@
-##APIs Trello
+#APIs Trello
 
-# Command npm update
-npm run clean: Làm sạch bằng cách xoá thư mục build hiện tại và tạo ra một thư mục build rỗng mới.
-npm run build-babel: Biên dịch toàn bộ code trong thư mục src sang thư mục build/src để code tương thích với các trình duyệt cũ hoặc môi trường cũ hơn.
-npm run build: Kết hợp của 2 lệnh trên.
-npm run production: Build xong code thì chạy ứng dụng.
-npm run dev: Sử dụng nodemon và babel để biên dịch code và chạy ứng dụng cho quá trình dev
+## Requirements
+
+* Node 16 or latest
+* Git
+
+## Common setup
+
+Clone the repo and install the dependencies.
+
+```bash
+git clone https://github.com/vtavn/trello-api.git
+cd trello-api
+```
+
+```bash
+npm install
+```
+
+Open Config & rename .env.example to .env
+
+Open [http://localhost:3300](http://localhost:3300) and take a look around.
+
+## Command 
+> npm run clean
+
+> npm run build-babel
+
+> npm run build
+
+> npm run production
+
+> npm run dev
